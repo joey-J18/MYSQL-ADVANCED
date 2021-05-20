@@ -1,1 +1,6 @@
-
+INSERT INTO `studenten`(`student_id`, `voornaam`, `achternaam`, `klas`, `adres`, `postcode`, `geboortedatum`, `woonplaats`) VALUES (5, 'frenkie', 'de oud', '9A', 'dejongstraat 69', '4571 DD', '2001-08-12', 'friesland')
+INSERT INTO `studenten`(`student_id`, `voornaam`, `achternaam`, `klas`, `adres`, `postcode`, `geboortedatum`, `woonplaats`) VALUES (6, 'peppa', 'big', '9A', 'biggetjesstraat 4', '1023 BB', '2002-04-2', 'Utrecht')
+INSERT INTO `studenten`(`student_id`, `voornaam`, `achternaam`, `klas`, `adres`, `postcode`, `geboortedatum`, `woonplaats`) VALUES (7, 'Zlatan', 'Ibra', '9A', 'degoatstraat', '6969 TG', '2000-08-10', 'Zweden')
+INSERT INTO `studenten`(`student_id`, `voornaam`, `achternaam`, `klas`, `adres`, `postcode`, `geboortedatum`, `woonplaats`) VALUES (8, 'Lionel', 'Messi', '9A', 'dwergstraat', '0719 BD', '2001-02-12', 'Drenthe')
+INSERT INTO `studenten`(`student_id`, `voornaam`, `achternaam`, `klas`, `adres`, `postcode`, `geboortedatum`, `woonplaats`) VALUES (9, 'Julian', 'pepijn', '9A', 'Demaatstraat', '2231 ED', '2002-05-12', 'Amsterdam')
+INSERT INTO `studenten`(`student_id`, `voornaam`, `achternaam`, `klas`, `adres`, `postcode`, `geboortedatum`, `woonplaats`) VALUES (10, 'Henk', 'Jansen', '9A', 'Beethovenstraat 69', '2003 EB', '2001-04-2', 'Gelderland')

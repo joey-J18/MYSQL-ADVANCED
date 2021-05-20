@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 -- Tabelstructuur voor tabel `studenten`
 --
 
-CREATE TABLE `studenten` (
+CREATE TABLE `studenten2` (
   `student_id` int(5) NOT NULL,
   `voornaam` varchar(50) NOT NULL,
   `achternaam` varchar(50) NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE `studenten` (
 -- Gegevens worden geëxporteerd voor tabel `studenten`
 --
 
-INSERT INTO `studenten` (`student_id`, `voornaam`, `achternaam`, `klas`, `adres`, `postcode`, `geboortedatum`, `woonplaats`) VALUES
+INSERT INTO `studenten2` (`student_id`, `voornaam`, `achternaam`, `klas`, `adres`, `postcode`, `geboortedatum`, `woonplaats`) VALUES
 (2, 'Marloes', 'Bakker', '9A', '2e Kekerstraat', '1104EG', '1999-12-12', 'Amsterdam'),
 (3, 'Emma', 'da Silva', '9A', 'Burgemeester Mulstraat 66', '1109ET', '2001-04-28', 'Amstelveen'),
 (4, 'Mohammed', 'Atari', '9A', 'Duke Ellingtonstraat 11', '1066AK', '2002-02-17', 'Amstelveen');
@@ -55,7 +55,7 @@ INSERT INTO `studenten` (`student_id`, `voornaam`, `achternaam`, `klas`, `adres`
 --
 -- Indexen voor tabel `studenten`
 --
-ALTER TABLE `studenten`
+ALTER TABLE `studenten2`
   ADD PRIMARY KEY (`student_id`);
 
 --
@@ -65,7 +65,7 @@ ALTER TABLE `studenten`
 --
 -- AUTO_INCREMENT voor een tabel `studenten`
 --
-ALTER TABLE `studenten`
+ALTER TABLE `studenten2`
   MODIFY `student_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
